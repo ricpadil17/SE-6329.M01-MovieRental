@@ -12,7 +12,7 @@ public class MovieRentalProperties {
     private MovieRentalProperties(){}
 
     public static Properties getProperties(){
-        if (propertes == null){
+        if (properties == null){
             properties = new Properties();
             properties.load(new FileReader(PROPERTY_FILENAME));
         }
